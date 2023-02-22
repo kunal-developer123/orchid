@@ -3025,16 +3025,18 @@ fieldset[disabled] a.btn {
     background-color: #fff; }
 
 .btn-danger {
+
   color: #fff;
   background-color: #DEA41D;
-  border-color: #c9a863; }
+  border-color: #c9a863;
+ }
   .btn-danger:focus, .btn-danger.focus {
     color: #fff;
     background-color: #c39e50;
     border-color: #81662c; }
   .btn-danger:hover {
     color: #fff;
-    background-color: #c39e50;
+    background-color: #a77a19;
     border-color: #b28c3d; }
   .btn-danger:active, .btn-danger.active,
   .open > .btn-danger.dropdown-toggle {

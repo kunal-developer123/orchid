@@ -2071,8 +2071,15 @@ section {
   background-color: #DEA41D;
 }
 
+
 .banner .btn {
   margin-top: 40px;
+}
+
+.banner .btn:hover {
+  background-color: rgb(231, 131, 0);
+  /* color: #000; */
+
 }
 
 /*  
@@ -2138,6 +2145,7 @@ section {
 .contact {
   background-color: transparent;
   padding: 0 0 100px 0;
+  margin-bottom: -80px;
 }
 
 .contact .map {
@@ -2154,11 +2162,15 @@ section {
   background-position: center;
   background-size: 80% auto;
   background-repeat: no-repeat;
+  margin-right: 100px;
+  margin-top: 95px;
+
 }
 
 .contact .contact-block .contact-info {
   background-color: #eeeeee;
   padding-bottom: 15px;
+ margin-right: 100px;
 }
 
 .contact .contact-block .contact-info figure {
@@ -2674,6 +2686,7 @@ section {
 */
 .facilities {
   background-color: #eeeeee;
+  margin-bottom: -90px;
 }
 
 .facilities .facilities-wrapper figure {
@@ -2902,6 +2915,7 @@ section {
 @media (min-width: 992px) {
   .facility .facility-addons .tab-content {
     padding: 40px;
+    margin-left: -115px;
   }
   .facility .facility-addons .tab-content .tab-pane {
     display: block;
@@ -5312,6 +5326,7 @@ footer a:hover {
 footer .footer-left,
 footer .footer-right {
   text-align: center;
+
 }
 
 @media (min-width: 768px) {
@@ -5356,6 +5371,7 @@ footer .footer-social .copyright {
   margin: 0;
   padding: 0;
   font-family: "montserrat", sans-serif;
+  /* margin-bottom: 40px; */
 }
 
 .testimonials
@@ -5400,7 +5416,7 @@ footer .footer-social .copyright {
 .testimonial
 {
   background: black;
-  padding: 30px;
+  padding: 20px;
 }
 
 .testimonial img
@@ -5512,5 +5528,13 @@ footer .footer-social .copyright {
 }
 .fixed-tumblr span{
   background-color: #EB1471;
+}
+
+@media screen and (max-width: 420px) {
+.hide234 {
+  display: none;
+  visibility: hidden;
+}
+
 }
 
